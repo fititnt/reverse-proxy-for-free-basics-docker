@@ -4,6 +4,7 @@ exit
 # Logbook for reverse-proxy-for-free-basics-docker deployed on Tsuru PaaS
 # -----------------------------------------------------------------------------#
 # CREATED AT: 2019-06-08 04:22
+# TSURU TEST SERVER: aguia-pescadora-charlie.etica.ai
 #
 # Links:
 #     - GitHub:
@@ -92,3 +93,10 @@ tsuru cname-add 0.inclusao.etica.ai --app proxy-for-inclusao-etica-ai
 ## The next command allow see more info about the app
 tsuru app-info --app proxy-for-inclusao-etica-ai
 
+## Note: Since we're deploying on the aguia-pescadora-charlie.etica.ai Tsuru
+##       node (and tsuru alone just prepare the DNS, but is our responsability)
+##       to point, we just
+##       CNAME 0.inclusao.etica.ai aguia-pescadora-charlie.etica.ai (TTL 15min)
+
+## And YES! It is working! 0.inclusao.etica.ai is serving content "hotfixed"
+## from inclusao.etica.ai!!!

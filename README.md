@@ -1,4 +1,4 @@
-# Reverse Proxy for Free Basics: hotfix data efficiency of websites to help be accepted for (sponsored) free access for end users
+# Reverse Proxy for Free Basics: automated hotfixes to improve data efficiency and comply with technical guidelines
 ![Work in Progress](img/badges/status-work-in-progress.svg) **This tool try it's
 best to make proxied site content as much data efficient as possible. The main
 objective is make easier for volunteers set up own proxies and help websites
@@ -8,7 +8,9 @@ following logic: sites that require very low amount data transfer to be fully
 operational can be so cheap that mobile operators can simple not care about
 ask money from end users.
 
-For now this project is being tested on the <https://inclusao.etica.ai/>. See
+For now this project is being tested on the <https://inclusao.etica.ai/>
+<sup>(original, generic GitHub Pages template)</sup> and
+<http://0.inclusao.etica.ai> <sup>(hotfixed by this proxy)</sup>. See
 [issue#1](https://github.com/fititnt/reverse-proxy-for-free-basics-docker/issues/1)
 for more details.
 
