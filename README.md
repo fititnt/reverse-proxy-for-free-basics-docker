@@ -1,6 +1,6 @@
-# Reverse Proxy for Free Basics: make sites data efficient to be accepted for free access
+# Reverse Proxy for Free Basics: hotfix data efficiency of websites to help be accepted for (sponsored) free access for end users
 ![Work in Progress](img/badges/status-work-in-progress.svg) **This tool try it's
-best to make proxied site content as much data efficient possible. The main
+best to make proxied site content as much data efficient as possible. The main
 objective is make easier for volunteers set up own proxies and help websites
 that do social good (but lack of developers to adapt their website) to be more
 easy to be accepted as free access**. This workflow can work based on the
