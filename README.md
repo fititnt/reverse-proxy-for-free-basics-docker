@@ -1,8 +1,36 @@
-# Reverse Proxy for Free Basics | Docker, Tsuro PaaS
-[Work in progress] **This tool try it's best to make proxied site content as
-much data efficient possible. One objetive is make easier for your project (or
-projects that you allow via your personal proxy) be acessed by for free for smartphone
-users**.
+# Reverse Proxy for Free Basics: make sites data efficient to be accepted for free access
+![Work in Progress](img/badges/status-work-in-progress.svg) **This tool try it's
+best to make proxied site content as much data efficient possible. The main
+objective is make easier for volunteers set up own proxies and help websites
+that do social good (but lack of developers to adapt their website) to be more
+easy to be accepted as free access**. This workflow can work based on the
+following logic: sites that require very low amount data transfer to be fully
+operational can be so cheap that mobile operators can simple not care about
+ask money from end users.
+
+For now this project is being tested on the <https://inclusao.etica.ai/>. See
+[issue#1](https://github.com/fititnt/reverse-proxy-for-free-basics-docker/issues/1)
+for more details.
+
+## Proxy Deployment Methods
+
+> TL;DR: We're document here the "YOUR PROXY" in the data flow
+>
+> **The Sites -> _YOUR PROXY_ -> Mobile Operator -> End User (free access)**
+>
+> or (easier strategy at the moment if you are not big enough to convince Mobile Operators)
+>
+> **The Sites -> _YOUR PROXY_ -> Free Basics by Internet.org (HTTPS) -> Mobile Operator -> (HTTPS) End User (free access)**
+
+### Docker
+
+_TODO: add a very friendly comentation soon here about Deployment Methods/Docker (2019-06-08 02:32 BRT)_
+
+### Tsuro
+
+_TODO: add a very friendly comentation here about Deployment Methods/Tsuro (2019-06-08 02:32 BRT)_
+
+
 <!--, sponsored
 
 
